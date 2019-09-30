@@ -16,7 +16,7 @@ Topics:
   
 The notebook **physics.ipynb** runs in Jupyter Notebook.  
 
-GitHub shows some of the static output of a notebook that has run but not the widgets or animations (which are the coolest part).  
+GitHub shows some of the static output of a run notebook but not the widgets or animations (which are the coolest part).  
 The **saved_videos** folder contains a few saved video outputs.  
   
 ### Running physics.ipynb 
