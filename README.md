@@ -44,5 +44,6 @@ and use Jupyter's upload button to upload physics.ipynb, Starwars.wav, energy_le
   
 Finally, to run the notebook you can execute each cell one-by-one using the play button, or you can ececute all cells by selecting kernel -> restart and run all cells. Cells that have run will have a number in square brackets to the left, and those that are still running will have an asterisk. 
 
-When finished with jupyter/scipy-notebook you can remove the image from you computer with  
-` 
+When finished with jupyter/scipy-notebook you can stop the container and remove it from your computer with   
+`sudo docker stop jupyter/scipy-notebook`  
+`sudo docker rm jupyter/scipy-notebook`  
