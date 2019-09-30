@@ -34,15 +34,15 @@ Once Docker is installed you can run jupyter/scipy-notebook with
   
 Depending on your internet speed this could take a while. The download size is about 3.4Gb.  
   
-When finished the command line output will show you a link containing a token you need to use the first time accessing Jupyter. Copy the link with form `http://127.0.0.1:8888/?token=<token>` into your browser (the next time you would only need http://127.0.0.1:8888).  
+When finished the command line output will show you a link containing a token you need to use the first time accessing Jupyter Notebook. Copy the link of form `http://127.0.0.1:8888/?token=<token>` to your browser (the next time you would only need `http://127.0.0.1:8888`).  
   
-Next we need to upload the files from this repo into the Jupyter notebook container. Clone this repo with  
+Next we need to upload the files from this repo into the Jupyter Notebook container. Clone this repo with  
   
 `git clone https://github.com/dxadam/Computational_Physics`  
   
-and use Jupyter's upload button to upload physics.ipynb, Starwars.wav, energy_levels.txt, and trumpet.txt.  Then open physics.ipynb.  
+and use Jupyter Notebook's upload button to upload physics.ipynb, Starwars.wav, energy_levels.txt, and trumpet.txt.  Then open physics.ipynb.  
   
-Finally, to run the notebook you can execute each cell one-by-one using the play button, or you can ececute all cells by selecting kernel -> restart and run all cells. Cells that have run will have a number in square brackets to the left, and those that are still running will have an asterisk. 
+Finally, to run the notebook you can execute each cell one-by-one using the play button, or you can execute all cells by selecting kernel -> restart and run all cells. Cells that have run will have a number in square brackets to the left, and those that are still running will have an asterisk. 
 
 When finished with jupyter/scipy-notebook you can stop the container and remove it from your computer with   
 `sudo docker stop jupyter/scipy-notebook`  
