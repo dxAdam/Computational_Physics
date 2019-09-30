@@ -24,7 +24,7 @@ The **saved_videos** folder contains a few saved video outputs.
 Installation of Jupyter Notebook, along with Python and the Anaconda Distribution is covered at the [Jupyter website](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda).  
 #### Option 2: Run a container with required packages  
 Instead of installing all of these packages to your environment you can instead use **Docker**.  
-Docker is a **container** platform. We can use Docker to run a container *containing* all the required packages you will need to run this notebook without affecting your current setup.  
+Docker is a **container** platform. We can use Docker to run a container *containing* all the required packages you will need to run this notebook without affecting your current environment setup.  
 
 First we need to install Docker. This is covered for Windows 10, macOS, and Linux at [the Docker website](https://docs.docker.com/install). If using Ubuntu you can use my [Docker install script](https://github.com/dxAdam/Automation_Scripts/blob/master/install/install_docker.sh).  
   
