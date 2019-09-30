@@ -46,13 +46,13 @@ Finally, to run the notebook you can execute each cell one-by-one using the Run 
 
 When finished with jupyter/scipy-notebook click 'Quit' in Jupyter Notebook. You then can remove the container and image from your computer by running  
   
-'sudo docker ps`  
+`sudo docker ps`  
   
 to find the container ID of the jupyter/scipy-notebook and then removing it with  
   
 `sudo docker rm <container ID>`. 
   
-If this is the only container you've downloaded you can remove all containers in one step with 
+If this is the only container you've downloaded you can remove all containers in one step with   
 `sudo docker rm (sudo ps -a -q)`. 
   
 To remove the image run  
