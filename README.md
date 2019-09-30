@@ -28,7 +28,7 @@ Docker is a **container** platform. We can use Docker to run a container *contai
 
 First we need to install Docker. This is covered for Windows 10, macOS, and Linux at [the Docker website](https://docs.docker.com/install). If using Ubuntu you can use my [Docker install script](https://github.com/dxAdam/Automation_Scripts/blob/master/install/install_docker.sh).  
  
-#### Running the container (Ubuntu) 
+#### Running the container (Linux) 
 Once Docker is installed you can run jupyter/scipy-notebook with  
   
 `sudo docker run -p 8888:8888 jupyter/scipy-notebook:17aba6048f44`.  
@@ -46,7 +46,7 @@ and use Jupyter Notebook's upload button to upload physics.ipynb, Starwars.wav, 
 Finally, to run the notebook you can execute each cell one-by-one using the Run button, or you can execute all cells by selecting Cell->Run All from the menu. To reset use Kernel->Restart. Cells that have run will have a number in square brackets to the left, and those that are still running will have an asterisk. 
 
 
-#### Remove container and image (Ubuntu)
+#### Remove container and image (Linux)
 When finished with jupyter/scipy-notebook click 'Quit' in Jupyter Notebook. You then can remove the container and image from your computer by running  
   
 `sudo docker ps`  
