@@ -1,9 +1,15 @@
 # Computational Physics
-The notebook **physics.ipynb** runs in Jupyter Notebook.<br><br>
-GitHub shows some of the static output but not the widgets or animations (which are the coolest part).<br>The **saved_videos** folder contains a few saved video outputs.<br><br> Installation of Jupyter Notebook, along with Python and the Anaconda Distribution is covered at the __[Jupyter website](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda)__ .  
+The notebook **physics.ipynb** runs in Jupyter Notebook.  
+
+GitHub shows some of the static output but not the widgets or animations (which are the coolest part).  
+The **saved_videos** folder contains a few saved video outputs.  
   
-Instead of installing all of these packages on your system you can instead use <strong>Docker</strong>.  
-Docker is a <strong>container</strong> platform. We can use Docker to run a container <em>containing</em> all the required software and packages you will need to run this notebook without affecting your current setup.  
+## Running physics.ipynb  
+### Install required packages to your environment    
+Installation of Jupyter Notebook, along with Python and the Anaconda Distribution is covered at the __[Jupyter website](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda)__ .  
+### Install container with required packages  
+Instead of installing all of these packages to your environment you can instead use <strong>Docker</strong>.  
+Docker is a <strong>container</strong> platform. We can use Docker to run a container <em>containing</em> all the required packages you will need to run this notebook without affecting your current setup.  
 
 First we need to install Docker. This is covered for Windows 10, macOS, and Linux at [the Docker website](https://docs.docker.com/install). If using Ubuntu you can use my [Docker install script](https://github.com/dxAdam/Automation_Scripts/blob/master/install/install_docker.sh).  
   
