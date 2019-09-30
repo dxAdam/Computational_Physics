@@ -1,5 +1,19 @@
 # Computational Physics
 ### Introduction
+This project is an exploration of how Python can be used to solve problems inphysics.  We begin with simple topics like functions and IO and progress to advanced topics like Fourier transforms and Markov chain Monte Carlo simulations. A more complete list of topics is shown below.  
+  
+Topics:  
+1. Electron Energy Levels (Functions & IO)  
+2. Plotting Electric Potential (1D, 2D, Scatter, & Contour Plots)  
+3. Waves in 2D (Plots, Widgets, Animations)
+4. Electric Field of a Charge Distribution (1D & 2D Integration, Quiver Plots)  
+5. Eigenfrequencies (Linear Algebra, Drawing & Animating Shapes)
+6. Lagrange Points (Minimization/Maximization)  
+7. Fourier Transform of Sound (Fourier Transforms)
+8. Double Pendulum (Ordinary Differential Equations)
+9. Standing Waves on a String (Partial Differential Equations)  
+10. Ising Model of Magnetism (Markov Chain Monte Carlo)  
+  
 The notebook **physics.ipynb** runs in Jupyter Notebook.  
 
 GitHub shows some of the static output but not the widgets or animations (which are the coolest part).  
@@ -9,8 +23,8 @@ The **saved_videos** folder contains a few saved video outputs.
 #### Option 1: Install required packages to your environment    
 Installation of Jupyter Notebook, along with Python and the Anaconda Distribution is covered at the __[Jupyter website](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda)__ .  
 #### Option 2: Install container with required packages  
-Instead of installing all of these packages to your environment you can instead use <strong>Docker</strong>.  
-Docker is a <strong>container</strong> platform. We can use Docker to run a container <em>containing</em> all the required packages you will need to run this notebook without affecting your current setup.  
+Instead of installing all of these packages to your environment you can instead use **Docker**.  
+Docker is a **container** platform. We can use Docker to run a container *containing* all the required packages you will need to run this notebook without affecting your current setup.  
 
 First we need to install Docker. This is covered for Windows 10, macOS, and Linux at [the Docker website](https://docs.docker.com/install). If using Ubuntu you can use my [Docker install script](https://github.com/dxAdam/Automation_Scripts/blob/master/install/install_docker.sh).  
   
