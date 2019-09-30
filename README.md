@@ -1,5 +1,5 @@
 # Computational Physics
-### Introduction
+## Introduction
 This project is an exploration of how Python can be used to solve problems in physics.  We begin with simple topics like functions and IO and progress to advanced topics like Fourier transforms and Markov chain Monte Carlo simulations. A more complete list of topics is shown below.  
   
 Topics: 
@@ -19,10 +19,10 @@ The notebook **physics.ipynb** runs in Jupyter Notebook.
 GitHub shows some of the static output of a run notebook but not the widgets or animations (which are the coolest part).  
 The **saved_videos** folder contains a few saved video outputs.  
   
-### Running the notebook (physics.ipynb) 
-#### Option 1: Install required packages to your environment    
+## Running the notebook (physics.ipynb) 
+### Option 1: Install required packages to your environment    
 Installation of Jupyter Notebook, along with Python and the Anaconda Distribution is covered at the [Jupyter website](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda).  
-#### Option 2: Run a container with required packages  
+### Option 2: Run a container with required packages  
 Instead of installing all of these packages to your environment you can instead use **Docker**.  
 Docker is a **container** platform. We can use Docker to run a container *containing* all the required packages you will need to run this notebook without affecting your current environment setup.  
 
